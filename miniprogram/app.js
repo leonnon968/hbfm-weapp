@@ -13,7 +13,7 @@ App({
     } else {
       gpromise = new Promise((resolve,reject) => {
         wx.cloud.init({
-          env: 'lbfm-tpnqm',
+          env: 'scarlet-cloud-1gfq6jjo71ebe543',
         });
 
         wx.cloud.callFunction({
@@ -31,6 +31,7 @@ App({
             resolve(list)
           },
           fail: function (err) {
+            console.log('err detail',err);
             reject(err)
           },
           complete: function () {

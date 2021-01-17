@@ -3,10 +3,6 @@
   "packOptions": {
     "ignore": []
   },
-  "cloudfunctionRoot": "cloudfunctions/",
-  "miniprogramNpmDistDir": ".",
-  "miniprogramRoot": "miniprogram/",
-  "qcloudRoot": "cloudfunctions/",
   "setting": {
     "urlCheck": true,
     "es6": true,
@@ -14,7 +10,7 @@
     "postcss": true,
     "preloadBackgroundData": false,
     "minified": true,
-    "newFeature": true,
+    "newFeature": false,
     "coverView": true,
     "nodeModules": true,
     "autoAudits": false,
@@ -39,25 +35,19 @@
     "useCompilerModule": true,
     "userConfirmedUseCompilerModuleSwitch": false,
     "userConfirmedBundleSwitch": false,
-    "packNpmManually": true,
-    "packNpmRelationList": [
-      {
-        "packageJsonPath": "./package.json",
-        "miniprogramNpmDistDir": "./src/"
-      }
-    ],
+    "packNpmManually": false,
+    "packNpmRelationList": [],
     "minifyWXSS": true
   },
   "compileType": "miniprogram",
-  "libVersion": "2.14.3",
+  "libVersion": "2.14.4",
   "appid": "wxf26c06ef39486d6e",
-  "projectname": "lbfm",
+  "projectname": "scarlet",
   "debugOptions": {
     "hidedInDevtools": []
   },
+  "scripts": {},
   "isGameTourist": false,
-  "simulatorType": "wechat",
-  "simulatorPluginLibVersion": {},
   "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
   "condition": {
     "search": {
@@ -66,31 +56,17 @@
     "conversation": {
       "list": []
     },
-    "plugin": {
+    "game": {
       "list": []
     },
-    "game": {
-      "currentL": -1,
+    "plugin": {
       "list": []
     },
     "gamePlugin": {
       "list": []
     },
     "miniprogram": {
-      "list": [
-        {
-          "id": 0,
-          "name": "pages/main/index",
-          "pathName": "pages/main/index",
-          "scene": null
-        },
-        {
-          "id": -1,
-          "name": "pages/lbfm/index",
-          "pathName": "pages/lbfm/index",
-          "scene": null
-        }
-      ]
+      "list": []
     }
   }
 }
